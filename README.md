@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Python簡易ゲーム README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## プロジェクト概要
+- Python簡易ゲームは、プログラミング初心者がPythonの基本的なプログラミングスキルを習得することを目的としたインタラクティブなゲームです。プレイヤーは、Pythonコードを入力・実行し、課題を解決することでストーリーを進行させます。
 
-## Available Scripts
 
-In the project directory, you can run:
+## ゲームの目的
+-  主な目的：プレイヤーがPythonの基本的なプログラミングスキルを習得すること
+-  ターゲットユーザー：プログラミング初心者、特にPythonを学びたい人
 
-### `npm start`
+### 必須機能
+コードエディタ
+プレイヤーがPythonのコードを入力するためのインタラクティブなエディタ
+Ace EditorまたはMonaco Editorを使用
+コード実行環境
+プレイヤーが書いたPythonコードを実行し、結果を表示する環境
+バックエンドでPythonコードを実行し、結果を返す仕組み
+自動評価システム
+プレイヤーのコードを評価し、フィードバックを提供するシステム
+正解との比較や、コードのスタイルチェックなどを行う
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ストーリーライン
+プレイヤーがプログラミングの課題を解決することで進行するストーリー
+各ステージで新しいスキルや概念を学び、それを使ってミッションをクリアする
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 技術選定
+### フロントエンド:
+- 言語: TypeScript
+- フレームワーク: React
 
-### `npm test`
+### バックエンド:
+- 言語: Python
+- フレームワーク: Flask 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### インフラ:
+- バーチャル環境: venv
+- パッケージ管理: pip (Python), npm (Node.js)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
